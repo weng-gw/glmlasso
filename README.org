@@ -1,0 +1,9 @@
+#+STARTUP: latexpreview
+#+STARTUP: inlineimages
+#+TITLE: glmlasso
+* Introduction
+This is an R package for implementing L1-penalized logistic using the iterative coordinate descent algorithm.
+
+Compared with the R package =glmnet= which uses [Fortran](https://fortran-lang.org/) to implement most of the fundamental computation logic, we use C to implement most of the logic and R serves as a "glue" language to call those C methods.
+
+For performance comparison with =glmnet=, please refer to my [[file:glmlasso_slide.pdf][slides]].
