@@ -1,0 +1,8 @@
+Package: glmlasso
+Title: Lasso Penalized Linear Models
+Version: 0.0.0.9000
+Description: Currently the package can solve Lasso penalized Logistic Regression and Linear Regression
+Depends: R (>= 3.4.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
